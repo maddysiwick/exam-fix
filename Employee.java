@@ -18,7 +18,6 @@ public class Employee{
         onLeave = false;
         unpaidHours = 0.0;
     }
-    
     public double getHourlyWage(){
         return hourlyWage;
     }
@@ -26,7 +25,7 @@ public class Employee{
         hourlyWage = newHourlyWage;
     }
     /**
-     * Returns true is an employee is above 16 years old
+     * Returns the age of an employee
      */
     private int calculateAge(int currentYear){
         return (currentYear - yearOfBirth);
